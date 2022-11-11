@@ -1,21 +1,11 @@
 .pre-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
-    margin-bottom: 50px;
-    text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .team {
@@ -73,12 +63,11 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-
-&:hover,
-&:focus {
-  background-color: #2196f3;
-  fill: #ffffff;
-}
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    fill: #ffffff;
+  }
 }
 .soc-item {
   width: 44px;
