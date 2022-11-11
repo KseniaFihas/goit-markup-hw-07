@@ -4,6 +4,8 @@
 
 .footer {
     background-color: #2f303a;
+    padding-top: 60px;
+        padding-bottom: 60px;
 }
 
 .footer-soc {
@@ -47,14 +49,14 @@
     fill: #ffffff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
+
+&:hover,
+&:focus {
     background-color: #2196f3;
     fill: #ffffff;
 }
-
+}
 .footer-soc-item {
     width: 44px;
     height: 44px;
@@ -137,10 +139,7 @@
     font-style: normal;
     margin-bottom: 9px;
 }
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 .logo-footer {
     font-family: "Raleway";
     font-weight: 700;
