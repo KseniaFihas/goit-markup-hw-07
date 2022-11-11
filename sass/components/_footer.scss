@@ -1,6 +1,4 @@
-.black-logo {
-    color: #000;
-}
+
 
 .footer {
     background-color: #2f303a;
@@ -150,6 +148,12 @@
     text-decoration: none;
     margin-bottom: 20px;
 }
+
+
+.partlogo {
+    color: var(--brand-color);
+}
+
 .communication {
     margin-top: 9px;
 }

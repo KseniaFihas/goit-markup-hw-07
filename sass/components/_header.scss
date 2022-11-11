@@ -1,10 +1,18 @@
-.header-page {
+.header {
     border: 1px solid #ececec;
     display: flex;
     align-items: center;
 }
 
-.logo {
+.header__container {
+    display: flex;
+}
+
+.logo--black {
+    color: #000;
+}
+
+.navigation__logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -14,16 +22,9 @@
     text-decoration: none;
     margin-right: 93px;
 }
-.partlogo {
-    color: var(--brand-color);
-}
-.contact-icon {
-    display: flex;
-    color: #757575;
-    cursor: pointer;
-}
 
-.link-nav {
+
+.menu__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -57,8 +58,13 @@
 }
 }
 
+.auth__item {
+    display: flex;
+    color: #757575;
+    cursor: pointer;
+}
 
-.link {
+.auth__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -73,44 +79,35 @@
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-.&:hover,
+&:hover,
 &:focus {
     color: var(--button-color);
     fill: var(--button-color);
 }
 }
-.mail-icon {
+.auth__icon {
     margin-right: 10px;
     fill: currentColor;
 }
-
-.smarthone-icon {
-    margin-right: 10px;
-    fill: currentColor;
-}
-
 
 
 .tel {
     color: #757575;
 }
-.auth-nav {
+.auth {
     display: flex;
     gap: 30px;
     align-items: center;
     margin-left: 318px;
 }
 
-.site-nav {
+.menu {
     display: flex;
     gap: 50px;
 }
 
-.site {
+.navigation {
     display: flex;
     align-items: center;
 }
 
-.main-nav {
-    display: flex;
-}
