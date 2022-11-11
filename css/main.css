@@ -160,6 +160,10 @@
   align-items: center;
 }
 
+.button {
+  cursor: pointer;
+}
+
 .decision {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -782,6 +786,11 @@
   margin-top: 9px;
 }
 
+.address {
+  font-style: normal;
+  margin-top: 20px;
+}
+
 .filter {
   background-color: #f5f4fa;
   color: var(--text-color);
@@ -914,4 +923,62 @@
 
 .contact-item {
   margin-bottom: 9px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  background-color: #ffffff;
+}
+
+:root {
+  --brand-color: #ffffff;
+  --text-color: #212121;
+  --button-color: #2196f3;
+}
+
+.site-nav,
+.auth-nav,
+.communication,
+.list,
+.header-page,
+.list-button,
+.list-image,
+.list-do,
+.list-team,
+.icon-list,
+.social-team-list,
+.footer-soc-list {
+  list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
