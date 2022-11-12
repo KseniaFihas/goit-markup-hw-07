@@ -736,7 +736,6 @@
   letter-spacing: 0.03em;
   color: var(--button-color);
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
 .partlogo {
@@ -747,7 +746,7 @@
   margin-top: 9px;
 }
 
-.address {
+.adress {
   font-style: normal;
   margin-top: 20px;
 }
